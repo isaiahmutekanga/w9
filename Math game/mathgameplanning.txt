@@ -1,0 +1,5 @@
+classes=
+
+playerClass - contain player information, scores and lives, will manage who current player is
+scoreClass - contain score information,contain
+calculationClass - handle calculation of platyer scores and lives
