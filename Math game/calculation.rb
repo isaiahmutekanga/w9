@@ -1,6 +1,14 @@
 class CalculationClass
-def random
-  @random1 = rand(10)
-  @random2 = rand(10)
+def initialize(x,y)
+@first, @second = x, y
 end
+
+def values()
+  "What is #{@first} + #{@second}"
+end
+
+def total()
+  @first+@second
+end
+
 end
